@@ -1,5 +1,6 @@
 import React from "react";
-import './assets/global.scss'
+import './assets/presentation/global.scss';
+
 
 
 
