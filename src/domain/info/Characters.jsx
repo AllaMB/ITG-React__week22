@@ -96,6 +96,7 @@ export const Characters = [
             "occupation": "antihero, mercenary",
             "friends": "partially The Avengers, Spider-Man, Wolverine",
             "superpower": "high pain tolerance, regeneration and immortality, superhuman immune system",
-            "url": "https://n1s1.hsmedia.ru/34/93/39/3493392c94fc2ae0552ef9c7e87f2617/728x382_1_cc2a743fd686b7b2e256c062966bb465@1034x543_0xac120002_2692921231540468872",
+            "url": "https://n1s1.hsmedia.ru/34/93/39/3493392c94fc2ae0552ef9c7e87f2617/728x382_1_cc2a743fd686b7b2e256c062966bb465@1034x543_0xac120002_2692921231540468872.jpg",
+            "info": "Like Wolverine from the X-Men, Deadpool underwent experiments as part of the 'Weapon X' program. Scientists attempted to cure his cancer by endowing his cells with regenerative abilities. As is often the case in comics, something went wrong, and Deadpool was left disfigured and mentally unstable. He is the only superhero on the list who is unequivocally not on the side of good. Deadpool revels in violence. Originally appearing in the main Marvel Universe, he has alternative versions in other realities of the Multiverse. What remained unchanged is his cynical, dark sense of humor, earning him the nickname 'The Merc with a Mouth."
         }
     ]

@@ -12,7 +12,7 @@ function Card({ name, universe, alterego, occupation, friends, superpower, info,
         <p><span className="card__category">Friends: </span>{friends}</p>
         <p><span className="card__category">Superpower: </span>{superpower}</p>
         <details>
-          <summary className="card__details">Details</summary>
+          <summary className="card__details">More details</summary>
           <p>{info}</p>
         </details>
       </div>
