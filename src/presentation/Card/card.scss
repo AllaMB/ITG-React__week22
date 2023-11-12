@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.card {
+    display: grid;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* a subtle box shadow */
+  }
+  
+  .card__title {
+    margin: 0 0 10px;
+  }
+  
+  .card__category,
+  .card__details {
+    font-weight: 600;
+  }
+  
+  .card__image {
+    align-self: end;
+    max-width: 100%;
+  }

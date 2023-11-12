@@ -3,6 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.jsx',
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   module: {
     rules: [
       {
@@ -15,6 +18,18 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.(png|jpg|jpeg|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images',
+            },
+          },
+        ],
+      },      
       {
         test: /\.s[ac]ss$/i,
         use: [

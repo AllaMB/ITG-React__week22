@@ -1,0 +1,15 @@
+.app {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    max-width: 1200px; /* Limit the maximum width for better readability on larger screens */
+    margin: 0 auto; /* Center the grid horizontally within the container */
+
+    @media screen and (max-width: 767px) {
+      /* Adjustments for smaller screens */
+      grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    }
+}

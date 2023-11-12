@@ -1,9 +1,14 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import { App } from './App.jsx'
-import './assets/presentation/global.scss';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import "./assets/styles/global.scss";
+import "./assets/styles/app.scss";
+import favicon from "./assets/images/favicon.png";
+import { App } from "./App";
 
-
-
-const root = createRoot(document.getElementById('app'));
+const root = createRoot(document.getElementById("root"));
 root.render(<App />);
+
+const pageFavicon = document.createElement("link");
+pageFavicon.rel = "shortcut icon";
+pageFavicon.href = favicon;
+document.head.append(pageFavicon);
