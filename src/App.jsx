@@ -12,7 +12,7 @@ return (
         //passing all properties as props by using the spread operator
         <a
         key={index}
-        href={`https://fr.wikipedia.org/wiki/${character.name}`}
+        href={`https://en.wikipedia.org/wiki/${character.name}`}
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none", color: "inherit" }}
