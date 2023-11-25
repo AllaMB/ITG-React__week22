@@ -7,7 +7,7 @@ import "./presentation/Card/card.scss";
 
 function App() {
 return (
-    <React.Fragment>
+    <>
     {Characters.map((character, index) => (
         //passing all properties as props by using the spread operator
         <a
@@ -17,10 +17,10 @@ return (
         rel="noopener noreferrer"
         style={{ textDecoration: "none", color: "inherit" }}
     >
-    <Card key={index} {...character}></Card>
+    <Card key={index} {...character}/>
     </a>
     ))}
-    </React.Fragment>
+    </>
 );
 }
 
